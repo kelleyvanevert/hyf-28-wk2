@@ -1,0 +1,2 @@
+$ git checkout -b : to create branch and checkout it directly .
+$ git add . : to stage all files and directory :
