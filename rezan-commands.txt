@@ -1,0 +1,50 @@
+Command-line interface (CLI)
+
+
+mv: The mv command moves or renames files and folders on Linux systems,
+1-To rename: => mv (old name) (new name)
+2-To move: => mv (file or folder name) (The folder that we want to move to it) 
+Example : => mv fullnames.txt /home/himanshu/Downloads
+3-To move all the files in one directory to another one: =>
+mv ./*  (The folder that we want to move to it). The (*) means all the file
+4- To move the files that end with the same ending: =>
+ mv *.html (The folder that we want to move to it).
+Example : => mv *.html (the new directory).
+4- To move the files that contain a specific character or letter or number: =>
+mv *r* (The folder that we want to move to it). => any folder or file that contains the letter r will be moved to the target directory.
+
+mkdir,  ls -a, ls -al
+
+How to create hidden files or folders?
+You can create hidden files and folders by adding (.) at the beginning of the file or folder name.
+Example : => mkdir .filename  or foldername
+-to show the hidden file or folder we use ls -a.
+-to show the hidden files or folder with more details we use ls -al.
+
+mkdir -p,  ls -R
+
+How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+You can create multiple nested directories by using mkdir -p folder
+"-p" stand for parents or path, will create the directory(along with the directories that lead to the directory you want to create) and would ignore any errors if the directory already exists
+ Example : =>  mkdir -p dir1/dir2/dir3/dir4 
+
+ls -R: this command will show the nested folders as a tree.
+
+
+cat, touch, >
+We can create a file in three different ways, by touch filename  >filename  cat>filename
+touch: touch used to create files or multiple files at ones
+   Example : => touch file1 file2 file3
+cat: It has three main functions related to manipulating text files: creating them, displaying them, and combining them.
+1-creating a text file: => cat >  filename.txt this will create a file and you will be able to add some content to it. Also, you can use (>) to do the same thing ( >  filename.txt).
+
+2-combine files: =>  cat file1.txt file2.txt file3.txt >  file4.txt so here the content of the file1, file2 and file3 will all combined into the file4 but it won’t be removed from its original files.
+
+3- if you want to sort the content alphabetically. => cat file1.txt file2.txt file3.txt | sort > file4.txt
+
+4- to rewrite the file (remove its content and write it again) we use => 
+cat > filename.txt
+ - to add text to an exciting file we use =>
+cat >>filename.txt
+- to append files to the end of an existing file =>
+cat filename1.txt >> filename2.txt everything in the file1 will be added to the end of the file2 but if only use one (>) then file2 will be overwritten.
