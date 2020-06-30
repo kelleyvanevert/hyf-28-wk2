@@ -1,9 +1,0 @@
-cd change directory
-ls list of files and folders in current directory
-mkdir make directory
-touch create/change last edit time for file
-vi open file in text editor
-pwd print current directory
-rm delet file
-rmdir delete directory
-
