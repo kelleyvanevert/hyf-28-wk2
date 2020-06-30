@@ -1,2 +1,5 @@
 head <filename>
 disply the first 10 lines of the file
+
+git branch <branchname>
+create a new branch
