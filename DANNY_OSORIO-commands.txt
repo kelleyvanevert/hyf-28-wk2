@@ -18,7 +18,13 @@ Stage all changes in <directory> for the next commit.
 git commit -m "<message>"
 Commit the staged snapshot, but instead of launching a text editor, use <message> as the commit message.
 
+GIT BRANCHES
 
+git branch 
+List all of the branches in your repo. Add a <branch> argument to create a new branch with the name <branch>.
+
+git checkout -b <branch>
+Create and check out a new branch named <branch>. Drop the -b flag to checkout an existing branch.
 
 
 Source: Atlassian Git Cheatsheet
