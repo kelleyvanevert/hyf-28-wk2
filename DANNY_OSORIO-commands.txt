@@ -1,0 +1,24 @@
+GIT COMMANDS
+
+GIT BASICS
+
+git init <directory>.
+Create empty Git repo in specified directory
+
+git clone <repo>
+Clone repo located at <repo> onto local machine
+
+
+git config user.name <name>
+Define author name to be used for all commits in current repo
+
+git add <directory>
+Stage all changes in <directory> for the next commit.
+
+git commit -m "<message>"
+Commit the staged snapshot, but instead of launching a text editor, use <message> as the commit message.
+
+
+
+
+Source: Atlassian Git Cheatsheet
