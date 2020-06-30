@@ -1,0 +1,10 @@
+Commands in git bash:
+1- cd +name of the directory+ Enter: to change a directory
+2- cd ..: to change to parent directory
+3- ls : list files in the directory
+4- mkdir + name of the directory: create a directory
+5- touch + name of file with the extention: make a file
+6- mkdir . + name of the file or the directory: create a hidden directory
+7- ls -a : list files including hidden files
+8- mkdir -p +(nested directories): create nested directories
+9- echo -e + message + another message: put each message in new line
