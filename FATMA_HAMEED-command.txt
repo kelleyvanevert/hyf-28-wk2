@@ -8,3 +8,8 @@ Commands in git bash:
 7- ls -a : list files including hidden files
 8- mkdir -p +(nested directories): create nested directories
 9- echo -e + message + another message: put each message in new line
+10- git init: to initialize git file
+11- git add .: to add all changes to staging stage
+12- git commit -m "message": to commit changes
+13- git push -u origin master: to push changes to remote repository
+14- git pull origin master: to pull commits from remote repository
